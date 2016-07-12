@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://github.com/reactive-swift/ExecutionContext"
   s.authors = { "Daniel Leping" => "daniel@crossroadlabs.xyz" }
   
-  s.source = { :git => "https://github.com/reactive-swift/ExecutionContext.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/reactive-swift/ExecutionContext.git", :tag => "#{s.version}", :branch => 'develop' }
   
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
